@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>Allster Support</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="content/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="content/img/favicon.ico">
+    <!-- Load Require CSS -->
+    <link href="content/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link href="content/css/boxicon.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Load Tempalte CSS -->
+    <link rel="stylesheet" href="content/css/templatemo.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="content/css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+      <!-- Header -->
+      <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand h1" href="index.html">
+                <span class="text-a h4">Allster</span> <span class="text-primary h4">Support</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
+                <div class="flex-fill mx-xl-5 mb-2">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 navbac borderb active" href="indexe.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 navbac borderb" href="skillse.html">my Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 navbac borderb " href="bildere.html">Pictures from Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link borderb rounded-pill px-3 navbac " href="aboutmee.html">about me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://twitter.com/allstergamer?lang=de" class="nav-link btn-outline-primary rounded-pill px-3 navbac fa fa-twitter"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/leuchtturmzwenkau/" class="nav-link btn-outline-primary rounded-pill px-3 navbac fa fa-instagram borderb"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/allstergamer" class="nav-link btn-outline-primary rounded-pill px-3 navbac fa fa-github"></a>
+                        </li>
+                    </ul>
+                </div>
+              
+            </div>
+        </div>
+    </nav>
+    <div class="banner-wrapper bg-light">
+
+    <center>
+        
+<br><br>
+<br><br><br>
+
+<strong><p style="color: black;">I have no idea for a Startpage</p></strong>
+<p style="color: black;">if you have an Idea message me</p>
+
+        
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=allstergamer&show_icons=true&text_color=8350cc&title_color=d785f2&bg_color=ffffff&icon_color=490161" />
+</a>
+        <br>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=allstergamer&layout=compact&text_color=8350cc&title_color=d785f2&bg_color=ffffff&icon_color=490161" />
+</a>
+        
+        
+        
+        
+    </center>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </footer>
+    <!-- End Footer -->
+
+
+    <!-- Bootstrap -->
+    <script src="content/js/bootstrap.bundle.min.js"></script>
+    <!-- Load jQuery require for isotope -->
+    <script src="content/js/jquery.min.js"></script>
+    <!-- Isotope -->
+    <script src="content/js/isotope.pkgd.js"></script>
+    <!-- Page Script -->
+    <script>
+        $(window).load(function() {
+            // init Isotope
+            var $projects = $('.projects').isotope({
+                itemSelector: '.project',
+                layoutMode: 'fitRows'
+            });
+            $(".filter-btn").click(function() {
+                var data_filter = $(this).attr("data-filter");
+                $projects.isotope({
+                    filter: data_filter
+                });
+                $(".filter-btn").removeClass("active");
+                $(".filter-btn").removeClass("shadow");
+                $(this).addClass("active");
+                $(this).addClass("shadow");
+                return false;
+            });
+        });
+    </script>
+    <!-- Templatemo -->
+    <script src="content/js/templatemo.js"></script>
+
+
+</body>
+
+</html>
