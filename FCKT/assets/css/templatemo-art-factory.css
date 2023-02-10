@@ -188,6 +188,21 @@ body {
   background: #fff;
   font-family: "Roboto", sans-serif;
 }
+.padtop{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+
+.space1{
+
+padding-bottom: 40px;  
+}
+
+
 
 ::selection {
   background: #ff589e;
@@ -954,7 +969,7 @@ services
   cursor: pointer;
   display: block;
   background: #ffffff;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+
   padding: 40px 30px;
   text-align: center;
   -webkit-transition: all 0.3s ease 0s;
