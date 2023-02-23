@@ -98,6 +98,7 @@ figcaption {
   margin: 0;
   padding: 0;
   border: 0;
+  border-radius: 25px;
   outline: 0;
 }
 
