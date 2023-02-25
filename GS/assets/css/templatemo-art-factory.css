@@ -675,8 +675,8 @@ header
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #fff !important;
-    color: #3b566e !important;
+    background: #737377 !important;
+    
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
