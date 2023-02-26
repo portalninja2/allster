@@ -2,7 +2,6 @@
 
 ART FACTORY
 
-https://templatemo.com/tm-537-art-factory
 
 */
 
@@ -393,7 +392,7 @@ header
   display: block;
   font-weight: 500;
   font-size: 13px;
-  color: #fff;
+  color: #727277;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -403,6 +402,7 @@ header
   line-height: 40px;
   border: transparent;
   letter-spacing: 1px;
+  clear:left
 }
 
 .header-area .main-nav .nav li:hover a {
