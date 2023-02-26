@@ -931,16 +931,16 @@ about
   margin-bottom: 40px;
 }
 
-#abouts {
+#about2 {
   padding: 120px 0px;
 }
 
-#abouts .right-image {
+#about2 .right-image {
   align-self: center;
 }
 
 #about h5,
-#abouts h5 {
+#about2 h5 {
   font-size: 26px;
   font-weight: 700;
   color: #ffffff;
@@ -950,23 +950,23 @@ about
 }
 
 #about p,
-#abouts p {
+#about2 p {
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.5px;
 }
 
-#abouts ul li img {
+#about2 ul li img {
   display: inline;
   float: left;
 }
 
-#abouts ul li .text {
+#about2 ul li .text {
   margin-left: 80px;
 }
 
-#abouts ul li .text h6 {
+#about2 ul li .text h6 {
   padding-top: 12px;
   font-size: 21px;
   font-weight: 500;
@@ -974,11 +974,11 @@ about
   margin-bottom: 20px;
 }
 
-#abouts {
+#about2 {
   padding: 120px 0px;
   border-bottom: 1px solid #eee;
 }
-#abouts .left-text {
+#about2 .left-text {
   align-self: center;
 }
 
