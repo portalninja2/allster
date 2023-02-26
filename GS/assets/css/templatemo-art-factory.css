@@ -914,6 +914,7 @@ about
   padding: 120px 0px;
 
   background-image: url(../images/banner-bg.png);
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 765px) {
