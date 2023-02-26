@@ -931,16 +931,16 @@ about
   margin-bottom: 40px;
 }
 
-#acpe {
+#abouts {
   padding: 120px 0px;
 }
 
-#acpe .right-image {
+#abouts .right-image {
   align-self: center;
 }
 
 #about h5,
-#acpe h5 {
+#abouts h5 {
   font-size: 26px;
   font-weight: 700;
   color: #ffffff;
@@ -950,23 +950,23 @@ about
 }
 
 #about p,
-#acpe p {
+#abouts p {
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.5px;
 }
 
-#acpe ul li img {
+#abouts ul li img {
   display: inline;
   float: left;
 }
 
-#acpe ul li .text {
+#abouts ul li .text {
   margin-left: 80px;
 }
 
-#acpe ul li .text h6 {
+#abouts ul li .text h6 {
   padding-top: 12px;
   font-size: 21px;
   font-weight: 500;
@@ -974,11 +974,11 @@ about
   margin-bottom: 20px;
 }
 
-#acpe {
+#abouts {
   padding: 120px 0px;
   border-bottom: 1px solid #eee;
 }
-#acpe .left-text {
+#abouts .left-text {
   align-self: center;
 }
 
